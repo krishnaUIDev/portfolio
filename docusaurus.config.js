@@ -1,11 +1,11 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "Krishnakanth",
+  tagline: "personalsite",
   url: "https://krishnaUIDev.github.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "PersonalSite", // Usually your GitHub org/user name.
-  projectName: "personalSite", // Usually your repo name.
+  projectName: "portfolio", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "My Site",
