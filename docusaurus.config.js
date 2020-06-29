@@ -1,7 +1,7 @@
 module.exports = {
   title: "Krishnakanth",
   tagline: "personalsite",
-  url: "https://krishnauidev.github.io/portfolio/",
+  url: "https://krishnauidev.github.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "PersonalSite", // Usually your GitHub org/user name.
