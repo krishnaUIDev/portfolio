@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Krishnakanth",
+  title: "KrishnaKanth",
   tagline: "personalsite",
   url: "https://krishnauidev.github.io",
   baseUrl: "/",
@@ -8,7 +8,7 @@ module.exports = {
   projectName: "krishnaUIDev.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      // title: "My Site",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -22,7 +22,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/krishnaUIDev",
           label: "GitHub",
           position: "right",
         },
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Krishna, Inc. Built with &#x2764; and &#9749;.`,
+      copyright: `Handcrafted by me © ${new Date().getFullYear()}. Built with &#x2764; and &#9749;.`,
     },
   },
   presets: [
