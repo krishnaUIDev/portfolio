@@ -6,46 +6,31 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
-window.onload = () => {
-  var script = document.createElement("script");
-  script.id = "oc_script";
-  script.setAttribute("convid", "O0va48KrTNXSnKCAzRlmmGVruFR2");
-  script.async = "true";
-  script.src = "https://static.optinchat.com/optinchat.js";
-  document.body.appendChild(script);
-  console.log(script, "script");
-};
+// window.onload = () => {
+//   var script = document.createElement("script");
+//   script.id = "oc_script";
+//   script.setAttribute("convid", "O0va48KrTNXSnKCAzRlmmGVruFR2");
+//   script.async = "true";
+//   script.src = "https://static.optinchat.com/optinchat.js";
+//   document.body.appendChild(script);
+//   console.log(script, "script");
+// };
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: <>Plan</>,
+    imageUrl: "img/plan.svg",
+    description: <>plan</>,
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: "img/undraw_docusaurus_tree.svg",
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: <>Develop</>,
+    imageUrl: "img/develop.svg",
+    description: <>Develop</>,
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: <>Deploy</>,
+    imageUrl: "img/deploy.svg",
+    description: <>Deploy</>,
   },
 ];
 

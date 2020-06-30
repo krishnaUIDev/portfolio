@@ -1,6 +1,6 @@
 module.exports = {
   title: "KrishnaKanth",
-  tagline: "personalsite",
+  tagline: "Hey, I'm a Front-End developer.",
   url: "https://krishnauidev.github.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -11,7 +11,7 @@ module.exports = {
       // title: "My Site",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/logo1.svg",
       },
       links: [
         {
