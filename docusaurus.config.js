@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with love.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Krishna, Inc. Built with &#x2764; and &#9749;.`,
     },
   },
   presets: [
