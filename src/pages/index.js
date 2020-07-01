@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import Loading from "./loading";
 
 // window.onload = () => {
 //   var script = document.createElement("script");
@@ -54,13 +55,14 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="KrishnaKanth Kondoju | Front-End developer"
+      // description="KrishnaKanth Kondoju | Front-End developer"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+          <div className={styles.text}>Krishna</div>
+          <p className="hero__subtitle">I'm a Front-end Developer & Mentor</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(

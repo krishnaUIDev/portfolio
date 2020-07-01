@@ -22,6 +22,11 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
+          href: "https://www.npmjs.com/~krishnakanth",
+          label: "Npm",
+          position: "right",
+        },
+        {
           href: "https://github.com/krishnaUIDev",
           label: "GitHub",
           position: "right",
