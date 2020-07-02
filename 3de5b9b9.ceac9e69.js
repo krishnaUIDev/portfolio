@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{148:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(174);n.default=function(){return o.a.createElement(r.a,{title:"KrishnaKanth Kondoju | Front-End developer"},o.a.createElement("div",null,"tets"))}}}]);
