@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{112:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(159);n.default=()=>o.a.createElement(r.a,{title:"KrishnaKanth Kondoju | Front-End developer"},o.a.createElement("div",null,"tets"))}}]);
