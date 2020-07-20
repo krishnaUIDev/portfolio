@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
-import { Firebase } from "../firebaseConnection";
+import { getFirebase } from "../firebaseConnection";
 import styles from "../pages/styles.module.css";
 
 function Feature({ imageUrl, title, description }) {
@@ -29,7 +29,16 @@ class Services extends Component {
   }
 
   componentDidMount() {
-    this.getUserData();
+    const lazyApp = import("firebase/app");
+    const lazyDatabase = import("firebase/database");
+    Promise.all([lazyApp, lazyDatabase]).then(([firebase]) => {
+      const database = getFirebase(firebase).database();
+      let ref = database.ref("/");
+      ref.on("value", (snapshot) => {
+        const state = snapshot.val();
+        this.setState({ features: state });
+      });
+    });
   }
 
   getUserData() {

@@ -12,8 +12,20 @@ const config = {
   measurementId: "G-WSH44WXLZ3",
 };
 
-const Firebase = firebase.initializeApp(config);
-//const firebaseConnection = Rebase.createClass(app.database());
-const storage = firebase.storage();
+// const Firebase = firebase.initializeApp(config);
+// //const firebaseConnection = Rebase.createClass(app.database());
+// const storage = firebase.storage();
 
-export { Firebase, storage as default };
+let firebaseInstance;
+export const getFirebase = (firebase) => {
+  if (firebaseInstance) {
+    return firebaseInstance;
+  }
+
+  firebase.initializeApp(config);
+  firebaseInstance = firebase;
+
+  return firebase;
+};
+
+//export { Firebase, storage as default };
