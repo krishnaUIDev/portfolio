@@ -12,8 +12,13 @@
     "@docusaurus/core": "^2.0.0-alpha.58",
     "@docusaurus/preset-classic": "^2.0.0-alpha.58",
     "clsx": "^1.1.1",
+    "config": "^3.3.1",
+    "firebase": "^7.16.1",
+    "fs": "0.0.1-security",
+    "re-base": "^4.0.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "three": "^0.118.3"
   },
   "browserslist": {
     "production": [
