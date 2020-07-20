@@ -9,8 +9,10 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.0.0",
     "@docusaurus/core": "^2.0.0-alpha.58",
     "@docusaurus/preset-classic": "^2.0.0-alpha.58",
+    "antd": "^4.4.2",
     "clsx": "^1.1.1",
     "config": "^3.3.1",
     "firebase": "^7.16.1",

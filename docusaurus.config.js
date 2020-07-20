@@ -21,6 +21,7 @@ module.exports = {
           position: "left",
         },
         { to: "blog", label: "Blog", position: "left" },
+        { to: "CreateBlog", label: "Blog", position: "left" },
         {
           href: "https://www.npmjs.com/~krishnakanth",
           label: "Npm",
